@@ -7,6 +7,8 @@ This project demonstrates an end-to-end machine learning workflow including data
 📂 Dataset
 The dataset contains both numerical and categorical features.
 Target variable is continuous (used for regression).
+Link:- https://www.kaggle.com/datasets/mirichoi0218/insurance
+
 ⚙️ Workflow
 1. Exploratory Data Analysis (EDA)
 Checked missing values
@@ -31,26 +33,31 @@ This ensures:
 Clean workflow
 No data leakage
 Reproducibility
+
 🤖 Model Used
 Linear Regression
 📊 Evaluation Metric
 R², Score used to evaluate model performance
+
 🧠 Key Learnings
 How to structure a machine learning pipeline
 Importance of separating numerical and categorical preprocessing
 Avoiding manual preprocessing to prevent data leakage
 Building reproducible ML workflows
+
 🛠️ Tech Stack
 Python
 Pandas, NumPy
 Scikit-learn
 Matplotlib / Seaborn (for EDA)
+
 🚀 How to Run
 # Install dependencies
 pip install -r requirements.txt
 
 # Run notebook or script
 jupyter notebook
+
 📌 Project Structure
 ml-project/
 │
@@ -58,6 +65,7 @@ ml-project/
 ├── data.csv (optional)
 ├── requirements.txt
 └── README.md
+
 📈 Future Improvements
 Try advanced models (Random Forest, XGBoost)
 Hyperparameter tuning
